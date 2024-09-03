@@ -1,16 +1,9 @@
-import { useState } from 'react'
 import { RaulAccordion, RaulAccordionItem, RaulAccordionItemHeader, RaulAccordionItemPanel, RaulAccordionItemTitle, RaulButton } from '@realpage/react-raul'
-import { DropDownExample } from './DropDown'
 
 function App() {
 
   return (
     <>
-      <DropDownExample></DropDownExample>
-      <div>Accordion</div>
-      <RaulButton variant="primary">
-        Primary Button
-      </RaulButton>
       <RaulAccordion>
         <RaulAccordionItem name="simple-accordion-1">
           <RaulAccordionItemHeader>
